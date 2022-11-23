@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "study_groups",
+  "info": {
+    "singularName": "study-group",
+    "pluralName": "study-groups",
+    "displayName": "Study_Group"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Idx": {
+      "type": "integer"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Student_Id": {
+      "type": "integer"
+    }
+  }
+}
