@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Idx": {
+      "type": "integer"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Place_Of_Birth": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Study_Groups": {
+      "type": "string"
+    }
+  }
+}
